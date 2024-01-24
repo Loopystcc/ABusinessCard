@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    background: #3a506b;
+    color: #0b132b;
+    padding: 15px 20px;
+    text-align: center;
+    padding: 20px 30px;
+    justify-content: space-around;
+    border-bottom: 8px solid #1c2541;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar{
+    width: 230px;
+    border-radius: 5%;
+    border: 4px solid #1c2541;
+    height: 150px;
+    margin: auto auto;
+}
+.discription{
+    margin: auto auto;
+}
+
+.zoom{
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
